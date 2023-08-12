@@ -1,0 +1,43 @@
+.zoomed-image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .zoomed-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 13s;
+    transform: translate(-50%, -50%); /* Center the text over the image */
+   /* Add a semi-transparent background */
+    color: #f7f5fb;
+    padding: 10px;
+  }
+ 
+  
+  
+
+.zoomButton{
+    height: 20px;
+}
+  
+  .zoomed {
+    transform: scale(20);
+    color: black;
+  }
+  
+  .reset-button {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transform: translate(-50%, -50%);
+  }
+  
+.meanBox{
+    position: inherit;
+    display: flex;
+    margin: 10%;
+ 
+    height: 100%;
+}

@@ -1,0 +1,19 @@
+.main{
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.message{
+    background-color: #fb4d3d;
+}
+  
+.centered-photo {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 30%; /* Ensure the image doesn't exceed its original size */
+
+}
