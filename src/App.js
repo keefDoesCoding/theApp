@@ -5,6 +5,8 @@ import Mean from './components/Mean/Mean.js';
 import Main from './components/Main/Main.js';
 import Blog from './components/Blog/Blog.js';
 import Movie from './components/Movie/Movie.js';
+import Game from './components/Game/Game.js';
+import Poll from './components/Poll/Poll.js';
 
 
 function App() {
@@ -33,6 +35,12 @@ function App() {
               <li className="nav-item">
                 <Link to="/movie">Movie of the Week</Link>
               </li>
+              <li className="nav-item">
+                <Link to="/game">Game</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/poll">Poll</Link>
+              </li>
             </ul>
           </nav>
           
@@ -43,6 +51,8 @@ function App() {
             <Route path="/meang" element={<Mean></Mean>} />
             <Route path="/blog" element={<Blog></Blog>} /> {/* Add route for the BlogPost component */}
             <Route path="/movie" element={<Movie></Movie>}/>
+            <Route path="/game" element={<Game></Game>}/>
+            <Route path="/poll" element={<Poll></Poll>}/>
           </Routes>
       </div>
     </Router>
