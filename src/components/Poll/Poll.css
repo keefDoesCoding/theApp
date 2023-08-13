@@ -1,28 +1,71 @@
 .poll-container {
     text-align: center;
+    margin-top: 2.5%;
     padding: 20px;
   }
   
   .options-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust as needed */
     margin-top: 20px;
   }
   
   .option {
     cursor: pointer;
-    margin: 0 20px;
     border: 2px solid #ccc;
     padding: 10px;
     transition: border-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .option img {
     max-width: 100%;
-    height: auto;
+    max-height: 400px; /* Adjust as needed */
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 8px;
   }
   
   .option.selected {
-    border-color: #00b894;
+    border-color: #fb4d3d;
   }
   
+  .next-button {
+    margin-top: 20px;
+    background-color: #fb4d3d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .congrats-message {
+    text-align: center;
+    margin-top: 5%;
+    padding: 20px;
+
+    border-radius: 8px;
+  }
+  
+  .congrats-message h1 {
+    color: #fb4d3d;
+  }
+  
+  .congrats-message p {
+    margin-top: 10px;
+  }
+  
+  .reset-button{
+   
+    background-color: #fb4d3d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
