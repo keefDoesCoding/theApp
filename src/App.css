@@ -13,9 +13,20 @@ body {
   text-align: center;
 }
 
+.logo{
+  width: 3%;
+}
+
+.logo-text{
+  width: 25%;
+  display: flex;
+  margin-right: 40%;
+}
+
 .App-header {
   background-color: #011627; /* Change to light blue color */
   position: fixed; /* Stick to the top */
+  
   top: 0;
   left: 0;
   width: 100%;
@@ -38,6 +49,7 @@ body {
 }
 
 .nav-item a {
-  text-decoration: none;
+  text-decoration:line-through;
   color: white;
 }
+

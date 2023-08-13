@@ -21,6 +21,8 @@ function App() {
     <Router>
       <div className="App">
         <header className="App-header">
+          <img className="logo" src="/images/logo.png" alt="logo"/>
+          <img className="logo-text" src="/images/logo-text.png" alt="logo"/>
           <nav>
             <ul className="nav-list">
               <li className="nav-item">
