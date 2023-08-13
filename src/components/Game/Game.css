@@ -1,0 +1,41 @@
+/* Snake game container */
+.game-container {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #333;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 1px;
+    margin: 0 auto;
+  }
+  
+  /* Individual cell in the grid */
+  .cell {
+    width: 20px;
+    height: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling for the snake */
+  .snake-part {
+    background-color: #00b894;
+  }
+  
+  /* Styling for the food */
+  .food {
+    background-color: #d63031;
+  }
+  
+  /* Styling for the game over screen */
+  .game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    color: #d63031;
+  }
+  
+  
